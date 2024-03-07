@@ -1,0 +1,10 @@
+nav {
+    display: block;
+    text-align: center;
+}
+
+a {
+    display: inline;
+    margin: 15px;
+    cursor: pointer;
+}
