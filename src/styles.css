@@ -13,13 +13,15 @@
 
     /*Tipografia*/
     --font-family: 'Open Sans';
+ 
+    --text-titulo-1: 56px;
+    --text-titulo-4: 32px;
+    --text-top: 22px;
+    --text-size: 18px;
+    --text-menu-size: 16px;
 
     --button-text-size: 24px;
     --button-font-weight: bold;
-
-    --text-size: 18px;
-
-    --text-menu-size: 16px;
 }
 
 html, body { 
