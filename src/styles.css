@@ -1,17 +1,33 @@
-/* You can add global styles to this file, and also import other style files */
-
-html, body { height: 100%; }
-body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
-
-
 :root {
-    --primary-color:#06c;
-    --on-primary-color: white;
-    --secondary-color:rgb(119, 146, 173);
-    --on-secondary-color:white;
-    --tercery-color:rgb(90, 94, 97);
-    --error-color:red;
-    --background-color:rgb(255, 255, 255);
-    --on-background-color:black;
+    /*Paleta de colores*/
+    --primary-color:#006874;
+    --on-primary-color: #FFFFFF;
+    --secondary-color: #4A6267;
+    --on-secondary-color:#FFFFFF;
+    --tertiary-color:#525E7D;
+    --on-tertiary-color: #FFFFFF;
+    --error-color:#BA1A1A;
+    --error-container: #FFDAD6;
+    --background-color: #F5FAFB;
+    --on-background-color:#171D1E;
 
+    /*Tipografia*/
+    --font-family: 'Open Sans';
+
+    --button-text-size: 24px;
+    --button-font-weight: bold;
+
+    --text-size: 18px;
+
+    --text-menu-size: 16px;
 }
+
+html, body { 
+    height: 100%; 
+}
+body { 
+    margin: 0; 
+    font-family: var(--font-family); 
+    color: var(--on-background-color);
+}
+
