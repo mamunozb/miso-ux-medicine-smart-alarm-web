@@ -12,7 +12,7 @@ top bar
     width: 300px;
     height: 100%;
     line-height: 150px;
-    margin: 200px;
+    margin: 150px;
     font-size: var(--text-titulo-1);
     color: var(--on-primary-color);
 }
@@ -22,7 +22,7 @@ top bar
     flex-direction: row;
     float: right;
     height: 100%;
-    margin-right: 200px;
+    margin-right: 150px;
 }
 
 .top-bar .user .user-menu {
@@ -159,7 +159,7 @@ page content
 .content {
     margin: auto;
     height: calc(100% - 150px);
-    width: calc(100% - 400px);
+    width: calc(100% - 300px);
 }
 
 .table-container {
